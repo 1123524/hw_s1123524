@@ -31,6 +31,7 @@ vector<int> bfsTraversal(int V, vector<vector<int>> &adj) {
 
 int main() {
     int V;
+    cout << "Please enter the number of nodes:";
     cin >> V;
     cin.ignore();
 
