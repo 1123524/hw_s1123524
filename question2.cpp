@@ -7,7 +7,7 @@ using namespace std;
 
 vector<int> bfsTraversal(int V, vector<vector<int>> &adj) {
     vector<int> bfsResult;
-    vector<bool> visited(V, false);
+    vector<bool> visited(V, false);// Record whether each node has been visited
 
     queue<int> q;
     q.push(0);
